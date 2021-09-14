@@ -1,0 +1,18 @@
+# Suppress file by name
+portal_data_joined.csv
+## Suppress is specific
+
+# Suppress file by type
+*.csv
+*.RData
+*.pdf
+*.jpg
+## asterick will suppress any file no matter the file type, it is known as a wild card. 
+
+# Suppress files by folder
+data-cleaned/*.csv
+
+# Suppress all but a particular file (to not ignore something use exlamation)
+!data-cleaned/portal_data_joined_final.csv
+
+
